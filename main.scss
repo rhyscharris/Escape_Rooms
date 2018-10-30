@@ -92,6 +92,7 @@ a:hover, a:visited, a:link, a:active
 
 .items {
   margin-top: 5rem;
+  text-align: center;
 }
 
 .items h3 {
@@ -111,8 +112,8 @@ a:hover, a:visited, a:link, a:active
   text-align: center;
 }
 .col-md-3 {
-  flex: 0 0 32%;
-  max-width: 32%;
+  flex: 0 0 33.3%;
+  max-width: 33%;
 }
 .testimonials {
     padding-top: 3rem;
@@ -125,6 +126,10 @@ a:hover, a:visited, a:link, a:active
   line-height: 2.5rem;
   font-size: 1.5rem;
   font-weight: 300;
+}
+
+.col-md-6 {
+  padding: 0 30px !important;
 }
 
 footer {
@@ -143,6 +148,13 @@ footer .btn-sm {
       height: 400px;
   }
 }
+
+@media (max-width: 767px) {
+  .column-2 {
+    margin-top: 2rem;
+  }
+}
+
 @media (max-width: 766px) {
   .video {
       height: 300px;

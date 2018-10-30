@@ -8703,6 +8703,7 @@ a:hover, a:visited, a:link, a:active {
 
 .items {
   margin-top: 5rem;
+  text-align: center;
 }
 
 .items h3 {
@@ -8725,8 +8726,8 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .col-md-3 {
-  flex: 0 0 32%;
-  max-width: 32%;
+  flex: 0 0 33.3%;
+  max-width: 33%;
 }
 
 .testimonials {
@@ -8742,6 +8743,10 @@ a:hover, a:visited, a:link, a:active {
   line-height: 2.5rem;
   font-size: 1.5rem;
   font-weight: 300;
+}
+
+.col-md-6 {
+  padding: 0 30px !important;
 }
 
 footer {
@@ -8761,6 +8766,11 @@ footer .btn-sm, footer .btn-group-sm > .btn {
 @media (max-width: 991px) {
   .video {
     height: 400px;
+  }
+}
+@media (max-width: 767px) {
+  .column-2 {
+    margin-top: 2rem;
   }
 }
 @media (max-width: 766px) {
